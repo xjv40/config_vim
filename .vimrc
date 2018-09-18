@@ -3,6 +3,7 @@ call pathogen#infect()
 "autocmd vimenter * NERDTree
 
 let mapleader = ","
+let g:ctrlp_map = '<leader>C'
 
 let g:ackprg="ack -H --nocolor --nogroup --column"
 let g:ctrlp_map = '<leader>c'
