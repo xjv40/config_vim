@@ -62,3 +62,6 @@ nmap <leader>j mA:Ack<space>
 nmap <leader>ja mA:Ack "<C-r>=expand("<cword>")<cr>"
 nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
 
+" -- Permet d'activer ou de désactiver à volonté la surbrillance des
+"  caractères lors d'une recherche
+nnoremap <leader>hl :set hlsearch!\|set hlsearch?<cr>
