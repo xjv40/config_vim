@@ -6,6 +6,7 @@ let mapleader = ","
 
 let g:ackprg="ack -H --nocolor --nogroup --column"
 let g:ctrlp_map = '<leader>c'
+let g:neocomplcache_enable_at_startup = 1
 
 " -- Affichage
 
